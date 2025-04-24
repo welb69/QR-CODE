@@ -3,6 +3,7 @@ body{
   font-family: outfit;
   display: flex;
  justify-content: center;
+ flex-direction: column;
  align-items: center;
  min-height: 100vh;
  margin:0;
@@ -50,6 +51,17 @@ body{
   border-radius: 6px;
   height:350px;
   width:220px;
+  text-align: center;
+  
+}
+a{
+  color:cadetblue;
+}
+.attribution{
+  margin-top: 20px;
+  font-size: 14px;
+  color: hsl(228, 45%, 44%);
+  text-align: center;
 }
 @media (max-width: 375px) {
   .block {
